@@ -1,8 +1,10 @@
-export interface Button {
-    content: string;
-    backgroundColor: string;
-    width: string;
-    color: string;
-    disabled?: boolean;
-    buttonClickHandler: Function;
+import React from "react";
+
+export interface ButtonI {
+  content: string;
+  backgroundColor?: string;
+  width?: string;
+  color?: string;
+  disabled?: boolean;
+  buttonClickHandler: (event: React.MouseEvent<HTMLButtonElement>) => void;
 }

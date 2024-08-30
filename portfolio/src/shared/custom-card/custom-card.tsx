@@ -1,10 +1,7 @@
-import './custom-card.scss'
+import "./custom-card.scss";
 
 const CustomCard = () => {
-    return (
-        <>
-        </>
-    )
-}
+  return <></>;
+};
 
 export default CustomCard;

@@ -1,10 +1,7 @@
-import './custom-kpi.scss'
+import "./custom-kpi.scss";
 
 const CustomKpi = () => {
-    return (
-        <>
-        </>
-    )
-}
+  return <></>;
+};
 
 export default CustomKpi;

@@ -1,10 +1,7 @@
-import './custom-input.scss'
+import "./custom-input.scss";
 
 const CustomInput = () => {
-    return (
-        <>
-        </>
-    )
-}
+  return <></>;
+};
 
 export default CustomInput;

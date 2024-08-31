@@ -8,3 +8,12 @@ export interface ButtonI {
   disabled?: boolean;
   buttonClickHandler: (event: React.MouseEvent<HTMLButtonElement>) => void;
 }
+
+export interface CardI {
+  classes?: {};
+  raised?: boolean;
+  styles?: {};
+  icon: React.ReactNode;
+  heading: string;
+  content: string;
+}

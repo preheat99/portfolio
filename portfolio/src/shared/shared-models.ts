@@ -16,4 +16,5 @@ export interface CardI {
   icon: React.ReactNode;
   heading: string;
   content: string;
+  scrollId: string | number;
 }

@@ -18,3 +18,9 @@ export interface CardI {
   content: string;
   scrollId: string | number;
 }
+
+export interface KpiI {
+  icon: React.ReactNode;
+  label: string;
+  scrollId: string | number;
+}

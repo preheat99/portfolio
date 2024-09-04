@@ -12,15 +12,29 @@ body {
   padding: 0;
   font-family: Roboto;
   font-size: 14px;
+  overflow-x: hidden;
+  overflow-y: auto;
 }
 .animated-element {
   opacity: 0;
-  transform: translateY(20px);
-  transition:
-    opacity 0.5s ease-out,
-    transform 0.5s ease-out !important;
+  &.custom-kpi {
+    transform: translateY(40px);
+    transition:
+      opacity 0.5s ease-in,
+      transform 0.5s ease-in !important;
     &.animate {
       opacity: 1;
       transform: translateY(0);
     }
+  }
+  &.custom-card {
+    transform: scale(0.75);
+    transition:
+      opacity 0.5s ease-out,
+      transform 0.5s ease-out !important;
+    &.animate {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
 }

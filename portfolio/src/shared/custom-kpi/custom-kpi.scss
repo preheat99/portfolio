@@ -1,0 +1,11 @@
+.MuiCard-root.custom-kpi {
+  max-width: 20vw;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  margin: 10px;
+  .kpi-icon {
+    width: 5vw;
+  }
+}

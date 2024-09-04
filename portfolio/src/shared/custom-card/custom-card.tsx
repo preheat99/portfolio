@@ -10,7 +10,7 @@ const CustomCard = ({
   icon = "",
   heading,
   content,
-  scrollId
+  scrollId,
 }: CardI) => {
   const observedEntries = useIntersectionObserver();
   // console.log(observedEntries[`card-viewport${scrollId}`]);
@@ -20,7 +20,7 @@ const CustomCard = ({
       raised={raised}
       sx={styles}
       data-viewport={`card-viewport${scrollId}`}
-      className={`animated-element ${observedEntries[`card-viewport${scrollId}`] ? "animate" : ""}`}
+      className={`custom-card animated-element ${observedEntries[`card-viewport${scrollId}`] ? "animate" : ""}`}
     >
       <div className="card-icon">{icon}</div>
       <div className="card-heading">{heading}</div>

@@ -24,3 +24,8 @@ export interface KpiI {
   label: string;
   scrollId: string | number;
 }
+
+export interface HeaderLinkI {
+  label: string;
+  id: string;
+}
